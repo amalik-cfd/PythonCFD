@@ -12,7 +12,17 @@ This is one of the building blocks of the NS equations, describing how some quan
 
 						du/dt + cdu/dx = 0
 
-## Step 2: 1D Linear Diffusion
+
+## Step 2: 1D NonLinear Convection
+
+This step consists of the non linear convection equation. Also known as inviscid burger's equation. 
+
+						du/dt + udu/dx = 0
+
+
+
+
+## Step 3: 1D Linear Diffusion
 
 This step consists of the 1D diffusion equation of a quantity in space and also wrt time.
 
